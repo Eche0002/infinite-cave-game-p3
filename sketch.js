@@ -54,7 +54,7 @@ function setup(){
     pc.scale = 0.8;
     //back = createSprite(400,400);
     //back.addImage(caveImg);
-    ground = createSprite(0,windowWidth/2-250,10000,100);
+    ground = createSprite(0,windowWidth/2-350,10000,100);
     ground.visible = false;
     pc.setCollider("circle",0,20,100);
 }
